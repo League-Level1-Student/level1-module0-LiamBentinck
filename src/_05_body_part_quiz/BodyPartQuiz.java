@@ -42,7 +42,7 @@ public class BodyPartQuiz {
 
 		// 3. Change the size of the window so that you can only see part of the
 		// image.
-		window.setSize(500, 500);
+		window.setSize(175, 250);
 
 		showNextImage();
 
@@ -51,15 +51,21 @@ public class BodyPartQuiz {
 	private void startQuiz() {
 
 		// 1. Make an int variable to hold the score.
-
+		int score = 0;
 		// 2. Set the size of the window in the initializeGui() method 
-
+		
 		// 4. Ask the user who this person is and store their answer
 		String guess = JOptionPane.showInputDialog("who is this?");
 
 		// 5. Check their answer. If they guessed correctly:
 		// -- Tell them they are right and increase the score by 1
-
+		if (guess.equalsIgnoreCase("arnold")) {
+			System.out.println("you guessed correctly");
+		 score=+1;
+		}
+		else {
+			System.out.println("that is arnold stupid");
+		}
 		// 6. Otherwise:
 		// -- Tell them they are wrong and who the person is
 
@@ -67,9 +73,34 @@ public class BodyPartQuiz {
 		showNextImage();
 
 		// 8. .... repeat 4-7 for all your images.....
-
+		String guess2 = JOptionPane.showInputDialog("who is this");
+		if (guess2.equalsIgnoreCase("Leonardo")) {
+			System.out.println("your right");
+			score=+1;
+		}
+		else {
+			System.out.println("nope");
+		}
+		showNextImage();
+		String guess3 = JOptionPane.showInputDialog("who is dis");
+		if (guess3.equalsIgnoreCase("Morgan")) {
+			System.out.println("yep");
+			score=+1;
+		}
+		else {
+			System.out.println("nope dat is morgan");
+		}
+		showNextImage();
+		String guess4 = JOptionPane.showInputDialog("who is dis");
+		if (guess4.equalsIgnoreCase("jack")) {
+			System.out.println("yep");
+			score=+1;
+		}
+		else {
+			System.out.println("nope it was jack duh");
+		}	
 		// 9. Show them their current score
-
+		System.out.println(score);
 	}
 
 	public void showNextImage() {

@@ -1,0 +1,2579 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0068)https://freesound.org/search/?q=drum+&f=&s=score+desc&advanced=0&g=1 -->
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        
+        <meta name="description" content="Freesound: collaborative database of creative-commons licensed sound for musicians and sound lovers. Have you freed your sound today?">
+        <meta name="keywords" content="free, sound">
+        <link rel="stylesheet" type="text/css" href="./forDrum_files/all.css">
+        <!--[if IE 6]><link rel="stylesheet" type="text/css" href="/media/css/ie6.css?v=0506" /><![endif]-->
+        <link rel="icon" href="https://freesound.org/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://freesound.org/apple-touch-icon.png">
+        <link rel="manifest" href="https://freesound.org/site.webmanifest">
+        <link rel="mask-icon" href="https://freesound.org/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#00aba9">
+        <meta name="theme-color" content="#ffffff">
+        <title>Freesound - sound search</title>
+        <script type="text/javascript" async="" src="./forDrum_files/ga.js.download"></script><script src="./forDrum_files/jquery-1.5.2.min.js.download" type="text/javascript"></script>
+        <script src="./forDrum_files/jquery-ui-1.8.11.custom.min.js.download" type="text/javascript"></script>
+        <script src="./forDrum_files/jquery.cookie.js.download" type="text/javascript"></script>
+        <script src="./forDrum_files/swfobject.js.download" type="text/javascript"></script>
+        <script src="./forDrum_files/jquery.watermarkinput.js.download" type="text/javascript"></script>
+        <script type="text/javascript">
+            var isLoggedIn = true;
+            var loginUrl = "/home/login/?next=/search/";
+            $(document).ready(function() {
+                 $("#search input[name=q]").Watermark("search sounds");
+            });
+            function clearWatermark(){
+			   $.Watermark.HideAll()
+			   return true
+			}
+        </script>
+        <script src="./forDrum_files/freesound.js.download" type="text/javascript"></script>
+    	<script src="./forDrum_files/ajax_utils.js.download" type="text/javascript"></script>
+        <!-- next couple of lines are used for the HTML player -->
+        <link href="./forDrum_files/css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="./forDrum_files/player.css">
+        <script src="./forDrum_files/soundmanager2.js.download"></script>
+        <script type="text/javascript" src="./forDrum_files/player.js.download"></script>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-86270-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+        
+
+        
+
+    </head>
+
+    <body id="" onload="" onunload="">
+
+        
+
+        <div id="header">
+            <div id="account_nav">
+                
+                    
+                    <a href="https://freesound.org/people/leagueofamazing/"><div id="account_user"><img src="./forDrum_files/user_icon.png" alt="user icon">leagueofamazing</div></a>
+                    <a href="https://freesound.org/home/messages/">Messages</a><div class="messages_count" id="message_indicator_0"><div>0</div></div>
+                    
+                    
+                    <a href="https://freesound.org/home/edit/">Settings</a>
+                    <a href="https://freesound.org/home/logout/?next=/">Log Out</a>
+                    
+                
+                <a href="https://freesound.org/home/upload/" id="upload_button"></a>
+            </div>
+
+            <a href="https://freesound.org/" id="logo"></a>
+
+            <div id="search">
+                <form method="get" onsubmit="return clearWatermark()" action="https://freesound.org/search/">
+                    <fieldset>
+                       <input type="text" name="q" value="" size="30" style="color: rgb(170, 170, 170);">
+                       <input type="submit" value="" id="search_submit">
+                    </fieldset>
+                </form>
+            </div>
+
+            <ul id="site_nav">
+                
+                    <li class=""><a href="https://freesound.org/home/" id="site_nav_home"><span class="site_nav_icon"></span>Home</a></li>
+                
+                <li class="active_tab"><a href="https://freesound.org/browse/" id="site_nav_sounds"><span class="site_nav_icon"></span>Sounds</a></li>
+                <li class=""><a href="https://freesound.org/forum/" id="site_nav_forums"><span class="site_nav_icon"></span>Forums</a></li>
+                <li class=""><a href="https://freesound.org/people/" id="site_nav_people"><span class="site_nav_icon"></span>People</a></li>
+                <li class=""><a href="https://freesound.org/help/faq/" id="site_nav_help"><span class="site_nav_icon"></span>Help</a></li>
+
+            </ul>
+        </div>
+
+        <div id="wrapper">
+            <div id="container">
+
+            
+
+            
+<div id="content_full"> <!-- START of Content area -->
+
+
+<form id="search_form" method="get" onsubmit="return addAdvancedSearchOptionsFilters()" action="https://freesound.org/search/">
+    <fieldset>
+
+       <input id="query_input" type="text" name="q" value="drum " size="30">
+       <input id="filter_query" type="hidden" name="f" value="" size="30">
+       
+       <select name="s">
+            
+            <option value="score desc" selected="selected">Automatic by relevance</option>
+            
+            <option value="duration desc">Duration (long first)</option>
+            
+            <option value="duration asc">Duration (short first)</option>
+            
+            <option value="created desc">Date added (newest first)</option>
+            
+            <option value="created asc">Date added (oldest first)</option>
+            
+            <option value="num_downloads desc">Downloads (most first)</option>
+            
+            <option value="num_downloads asc">Downloads (least first)</option>
+            
+            <option value="avg_rating desc">Rating (highest first)</option>
+            
+            <option value="avg_rating asc">Rating (lowest first)</option>
+            
+       </select>
+
+       <input type="submit" value="search" id="search_submit">
+
+       <script type="text/javascript">
+
+    function showAdvancedSearchOptions()
+    {
+        $("#advanced_search_hidden").val(1);
+        $("#enableShowButton").hide();
+        $("#advanced_search_options").show('blind', {}, 500, function() {});
+
+    }
+
+    function hideAdvancedSearchOptions()
+    {
+        $("#advanced_search_hidden").val(0);
+        $("#advanced_search_options").hide('blind', {}, 500, function() {});
+        $("#enableShowButton").show();
+    }
+
+    function set_hidden_grouping_value(){
+        if ($("#grouping_geotagged").is(':checked')){
+            $("#grouping_geotagged_hidden").val("1")
+        }else{
+            $("#grouping_geotagged_hidden").val("")
+        }
+    }
+
+</script>
+
+
+<div id="advanced_search_options" class="advanced_search_options" style="display:none">
+<input id="advanced_search_hidden" type="hidden" name="advanced" value="0">
+
+<div style="margin-top:8px;"></div>Search in:&nbsp;
+<label><input type="checkbox" name="a_tag" value="1"> Tags</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_filename" value="1"> File names</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_description" value="1"> Descriptions</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_packname" value="1"> Pack names</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_soundid" value="1"> Sound Ids</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_username" value="1"> User names</label>
+<span class="advanced_search_indication">(if none is selected, all will be used)</span>
+<br>
+
+Duration between <input class="inputtext" id="filter_duration_min" value="0" size="6"> <label for="filter_duration_min">(min)</label>
+and <input class="inputtext" id="filter_duration_max" value="*" size="6"> <label for="filter_duration_max">(max)</label> seconds<br>
+<input id="filter_is_geotagged" type="checkbox" value="1"> <label for="filter_is_geotagged">Only geotagged sounds</label><br>
+<input id="grouping_geotagged" type="checkbox" onchange="set_hidden_grouping_value()" checked=""> <label for="grouping_geotagged">Group sounds by pack</label>
+<input id="grouping_geotagged_hidden" type="hidden" name="g" value="1">
+
+<br>
+<span class="advanced_search_options_button"><a style="cursor:pointer;" onclick="hideAdvancedSearchOptions();">Hide advanced search options</a></span>
+</div>
+
+<span id="enableShowButton" class="advanced_search_options_button">
+    <div style="margin-top:4px;"></div>
+    <a style="cursor:pointer;" onclick="showAdvancedSearchOptions();">Show advanced search options</a>
+</span>
+
+
+        <br>
+
+    </fieldset>
+</form>
+
+
+<p id="filter_query_display">
+
+
+
+</p>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        // Fill advanced search fields that were passen on the f parameter
+        // Duration
+
+        if (getFilterValue("duration","min") == "")
+            $("#filter_duration_min").val("0");
+        else
+            $("#filter_duration_min").val(getFilterValue("duration","min"));
+
+        if (getFilterValue("duration","max") == "")
+            $("#filter_duration_max").val("*");
+        else
+            $("#filter_duration_max").val(getFilterValue("duration","max"));
+
+        // Geotagged
+        if (getFilterValue("is_geotagged")==1)
+               $("#filter_is_geotagged").attr('checked','checked')
+
+        // Extract terms from the query search box and highlight any of their occurrences in the descriptions
+        terms = document.getElementById("query_input").value.split(" ");
+
+        for(var i=0;i<terms.length;i++)
+        {
+        	term = terms[i];
+        	re = RegExp(term,"i"); // i for case-insensative
+
+        	descriptions = document.getElementsByClassName("description");
+        	for (var j=0;j<descriptions.length;j++)
+        	{
+        		descriptions[j].innerHTML = descriptions[j].innerHTML.replace(re,"<b>"+term+"</b>");
+        	}
+        }
+
+    });
+
+    function addAdvancedSearchOptionsFilters()
+    {
+
+        // Remove existing previously existing advanced options filters (will be replaced by current ones)
+        existing_duration_filter = "duration:[" + getFilterValue("duration","min") + " TO " + getFilterValue("duration","max") + "]"
+        removeFilter(existing_duration_filter)
+        removeFilter("is_geotagged:1")
+
+        // if advanced options is activated add all updated filters
+        if ($("#advanced_search_hidden").val() == 1)
+        {
+
+            // Create and add new filter with all the advanced options
+            filter = ""
+
+            // Duration filter
+            duration_min = parseFloat($("#filter_duration_min").val())
+            duration_max = parseFloat($("#filter_duration_max").val())
+
+            if ((duration_min >= 0.0) || (duration_max >= 0.0))
+            {
+                duration_filter = ""
+
+                if ((duration_min >= 0.0) && (duration_max >= 0.0)) // Both min and max have been set
+                {
+                    if (duration_max < duration_min)
+                    {
+                        // interchange values if duration_min > duration_max
+                        duration_aux = duration_min
+                        duration_min = duration_max
+                        duration_max = duration_aux
+                    }
+
+                    duration_filter = "duration:[" + duration_min + " TO " + duration_max + "]"
+
+                }
+                else if (duration_min >= 0.0) // Only minimum has been set
+                {
+                    duration_filter = "duration:[" + duration_min + " TO *]"
+                }
+                else if (duration_max >= 0.0) // Only maximum has been set
+                {
+                    duration_filter = "duration:[* TO " + duration_max + "]"
+                }
+
+                filter = filter + duration_filter
+            }
+
+            // Is geotagged filter
+            if ($("#filter_is_geotagged").attr('checked')){
+                if (filter != "")
+                    filter = filter + " "
+                filter = filter + "is_geotagged:1"
+            }
+
+               // Update general filter with the advanced options filter
+            value = $("#filter_query").val();
+            if (value != "")
+                $("#filter_query").val(value + " " + filter);
+            else
+                $("#filter_query").val(filter);
+
+        }
+
+        return true
+    }
+
+    // Return the value of a filter given its name
+    // If filter has a range, optional "range" parameter must be set to "min or "max"
+    function getFilterValue(name, range)
+    {
+        if (!range) { range = "min"};
+
+        var value = $("#filter_query").val();
+        position_name = value.search(name)
+        position_value = value.search(name) + (name + ":").length
+        if (value.search((name + ":")) != -1)
+        {
+            if (value[position_value] == "[") // Is range (with spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                position_end = position_value + aux_value.search("]") + 2
+
+                range_string = value.substring(position_value + 1, position_end -1) // Without [ ]
+                parts = range_string.split(" ")
+                if (range == "min")
+                    return parts[0]
+                else if (range == "max")
+                    return parts[2]
+            }
+            else if (value[position_value] == "\"") // Is string (with spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                position_end = position_value + aux_value.search("\"") + 2
+                return value.substring(position_value, position_end)
+
+            }
+            else // Is number or normal text (without spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                if (aux_value.search(" ") != -1)
+                    position_end = position_value + aux_value.search(" ") + 1
+                else
+                    position_end = value.length
+
+                return value.substring(position_value, position_end)
+            }
+        }
+        else
+        {
+            return ""
+        }
+    }
+
+    // Remove a filter given the full tag ex: type:aiff, pack:"pack name"
+    function removeFilter(tag)
+    {
+        var value = $("#filter_query").val();
+        var cleaned = $.trim(value.replace(tag + " ", "").replace(tag, ""));
+        $("#filter_query").val(cleaned);
+    }
+
+</script>
+
+
+    
+    <div id="sidebar" style="float:right">
+        
+            <h3>licenses</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20license:%22Attribution%22">Attribution</a> (16249)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20license:%22Attribution+Noncommercial%22">Attribution Noncommercial</a> (9503)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20license:%22Creative+Commons+0%22">Creative Commons 0</a> (14524)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20license:%22Sampling%2B%22">Sampling+</a> (1263)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>tags</h3>
+            
+
+<p class="search-tagcloud">
+    <span class="facet_item" style="font-size:1.32173913043em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%221-shot%22">1-shot</a></span> <span class="facet_item" style="font-size:1.2652173913em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22bass%22">bass</a></span> <span class="facet_item" style="font-size:1.49130434783em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22beat%22">beat</a></span> <span class="facet_item" style="font-size:1.66086956522em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22carnatic%22">carnatic</a></span> <span class="facet_item" style="font-size:1.83043478261em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22compmusic%22">compmusic</a></span> <span class="facet_item" style="font-size:1.09565217391em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22dance%22">dance</a></span> <span class="facet_item" style="font-size:2.0em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22drum%22">drum</a></span> <span class="facet_item" style="font-size:1.77391304348em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22drums%22">drums</a></span> <span class="facet_item" style="font-size:0.75652173913em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22electro%22">electro</a></span> <span class="facet_item" style="font-size:1.15217391304em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22electronic%22">electronic</a></span> <span class="facet_item" style="font-size:1.66086956522em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22h4n-zoom%22">h4n-zoom</a></span> <span class="facet_item" style="font-size:0.926086956522em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22hit%22">hit</a></span> <span class="facet_item" style="font-size:1.66086956522em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22icassp2013-dataset%22">icassp2013-dataset</a></span> <span class="facet_item" style="font-size:1.66086956522em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22iitm%22">iitm</a></span> <span class="facet_item" style="font-size:1.66086956522em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22indian-percussion%22">indian-percussion</a></span> <span class="facet_item" style="font-size:1.37826086957em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22kick%22">kick</a></span> <span class="facet_item" style="font-size:0.869565217391em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22kit%22">kit</a></span> <span class="facet_item" style="font-size:1.60434782609em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22loop%22">loop</a></span> <span class="facet_item" style="font-size:1.71739130435em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22mridangam%22">mridangam</a></span> <span class="facet_item" style="font-size:1.66086956522em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22mridangam-stroke-dataset%22">mridangam-stroke-dataset</a></span> <span class="facet_item" style="font-size:1.54782608696em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22multisample%22">multisample</a></span> <span class="facet_item" style="font-size:1.94347826087em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22percussion%22">percussion</a></span> <span class="facet_item" style="font-size:0.813043478261em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22rhythm%22">rhythm</a></span> <span class="facet_item" style="font-size:1.20869565217em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22sample%22">sample</a></span> <span class="facet_item" style="font-size:1.66086956522em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22sm-58%22">sm-58</a></span> <span class="facet_item" style="font-size:1.88695652174em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22snare%22">snare</a></span> <span class="facet_item" style="font-size:0.982608695652em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22synth%22">synth</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22techno%22">techno</a></span> <span class="facet_item" style="font-size:1.03913043478em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22tom%22">tom</a></span> <span class="facet_item" style="font-size:1.4347826087em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20tag:%22velocity%22">velocity</a></span> 
+</p>
+
+
+        
+
+        
+            <h3>type</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20type:%22aiff%22">aiff</a> (1544)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20type:%22flac%22">flac</a> (1607)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20type:%22m4a%22">m4a</a> (17)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20type:%22mp3%22">mp3</a> (1899)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20type:%22ogg%22">ogg</a> (76)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20type:%22wav%22">wav</a> (36395)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>samplerate</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20samplerate:%22192000%22">192000</a> (114)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20samplerate:%2222050%22">22050</a> (121)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20samplerate:%2244100%22">44100</a> (32392)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20samplerate:%2248000%22">48000</a> (8094)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20samplerate:%2296000%22">96000</a> (726)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>bitdepth</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20bitdepth:%2216%22">16</a> (24108)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20bitdepth:%2224%22">24</a> (12018)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20bitdepth:%2232%22">32</a> (3379)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20bitdepth:%224%22">4</a> (19)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>bitrate</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20bitrate:%221378%22">1378</a> (5990)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20bitrate:%221411%22">1411</a> (2720)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20bitrate:%222250%22">2250</a> (3062)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20bitrate:%22690%22">690</a> (4501)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20bitrate:%22691%22">691</a> (3128)</li>
+</ul>
+
+
+
+        
+
+
+        
+            <h3>channels</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20channels:%221%22">1</a> (14788)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20channels:%222%22">2</a> (26725)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20channels:%223%22">3</a> (2)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20channels:%226%22">6</a> (5)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20channels:%228%22">8</a> (19)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>packs</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20grouping_pack:%2214157_CompMusic-IITM-Mridangam-Stroke-Dataset-B%22">CompMusic-IITM-Mridangam-Stroke-Dataset-B</a> (1325)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20grouping_pack:%2214159_CompMusic-IITM-Mridangam-Stroke-Dataset-C%22">CompMusic-IITM-Mridangam-Stroke-Dataset-C</a> (1129)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20grouping_pack:%2214160_CompMusic-IITM-Mridangam-Stroke-Dataset-C%23%22">CompMusic-IITM-Mridangam-Stroke-Dataset-C#</a> (1197)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20grouping_pack:%2214161_CompMusic-IITM-Mridangam-Stroke-Dataset-D%22">CompMusic-IITM-Mridangam-Stroke-Dataset-D</a> (916)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20grouping_pack:%2214163_CompMusic-IITM-Mridangam-Stroke-Dataset-D%23%22">CompMusic-IITM-Mridangam-Stroke-Dataset-D#</a> (1495)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20grouping_pack:%2214164_CompMusic-IITM-Mridangam-Stroke-Dataset-E%22">CompMusic-IITM-Mridangam-Stroke-Dataset-E</a> (1100)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20grouping_pack:%2214826_Greek%22">Greek</a> (578)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20grouping_pack:%2217318_Fender+Chroma+Polaris+-+Storm+Drum%22">Fender Chroma Polaris - Storm Drum</a> (784)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20grouping_pack:%228420_FloorTom18x16-multisampled%22">FloorTom18x16-multisampled</a> (560)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20grouping_pack:%228767_Tomtom+08x08inch-multisampled%22">Tomtom 08x08inch-multisampled</a> (335)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>users</h3>
+            
+
+<p class="search-tagcloud">
+    <span class="facet_item" style="font-size:1.18148148148em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22%40realdavidfloat%22">@realdavidfloat</a></span> <span class="facet_item" style="font-size:2.0em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22akshaylaya%22">akshaylaya</a></span> <span class="facet_item" style="font-size:1.47037037037em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22akustika%22">akustika</a></span> <span class="facet_item" style="font-size:1.37407407407em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22alienxxx%22">alienxxx</a></span> <span class="facet_item" style="font-size:1.51851851852em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22altemark%22">altemark</a></span> <span class="facet_item" style="font-size:1.66296296296em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22crispydinner%22">crispydinner</a></span> <span class="facet_item" style="font-size:1.56666666667em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22deleted_user_2195044%22">deleted_user_2195044</a></span> <span class="facet_item" style="font-size:1.22962962963em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22digitopia_cdm%22">digitopia_cdm</a></span> <span class="facet_item" style="font-size:0.988888888889em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22dirtyarchives%22">dirtyarchives</a></span> <span class="facet_item" style="font-size:1.71111111111em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22greek555%22">greek555</a></span> <span class="facet_item" style="font-size:1.27777777778em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22jagadamba%22">jagadamba</a></span> <span class="facet_item" style="font-size:1.85555555556em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22jovica%22">jovica</a></span> <span class="facet_item" style="font-size:1.03703703704em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22menegass%22">menegass</a></span> <span class="facet_item" style="font-size:1.80740740741em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22modularsamples%22">modularsamples</a></span> <span class="facet_item" style="font-size:1.42222222222em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22noisecollector%22">noisecollector</a></span> <span class="facet_item" style="font-size:0.844444444444em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22pjcohen%22">pjcohen</a></span> <span class="facet_item" style="font-size:0.940740740741em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22potentjello%22">potentjello</a></span> <span class="facet_item" style="font-size:1.95185185185em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22quartertone%22">quartertone</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22reaktorplayer%22">reaktorplayer</a></span> <span class="facet_item" style="font-size:1.37407407407em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22samulis%22">samulis</a></span> <span class="facet_item" style="font-size:1.9037037037em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22sandyrb%22">sandyrb</a></span> <span class="facet_item" style="font-size:0.892592592593em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22seidhepriest%22">seidhepriest</a></span> <span class="facet_item" style="font-size:1.61481481481em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22soneproject%22">soneproject</a></span> <span class="facet_item" style="font-size:0.748148148148em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22stomachache%22">stomachache</a></span> <span class="facet_item" style="font-size:1.75925925926em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22suicidity%22">suicidity</a></span> <span class="facet_item" style="font-size:1.32592592593em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22theriavirra%22">theriavirra</a></span> <span class="facet_item" style="font-size:1.08518518519em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22tripjazz%22">tripjazz</a></span> <span class="facet_item" style="font-size:0.796296296296em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22veiler%22">veiler</a></span> <span class="facet_item" style="font-size:1.13333333333em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22zagi2%22">zagi2</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=drum%20&amp;f=%20username:%22zgump%22">zgump</a></span> 
+</p>
+
+
+        
+
+    </div>
+
+        
+            <div class="search_paginator">
+                <ul class="pagination"><li class="disabled-previous-next">previous</li><li class="next-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=2#sound" title="Next Page">next</a></li><li class="current-page">1</li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=2#sound" title="Page 2">2</a></li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=3#sound" title="Page 3">3</a></li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=4#sound" title="Page 4">4</a></li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=5#sound" title="Page 5">5</a></li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=6#sound" title="Page 6">6</a></li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=7#sound" title="Page 7">7</a></li><li class="dots">...</li><li class="last-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=468#sound" title="Last Page">468</a></li><p class="number_of_results">
+            
+                &nbsp;|&nbsp; 41539 sounds
+            
+        </p></ul>
+
+
+            </div>
+
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="263889">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/263/263889_4056007-lq.mp3" title="mp3 file">Rattle Drum - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/263/263889_4056007-lq.ogg" title="ogg file">Rattle Drum - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/263/263889_4056007_wave_M.png" title="waveform file">Rattle Drum - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/263/263889_4056007_spec_M.jpg" title="spectrogram file">Rattle Drum - spectrogram</a>
+<span class="duration" title="duration in seconds">66317.9</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="play toggle">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/263/263889_4056007_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                                  <div class="position-indicator" style="left: 13.4669%;"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:57</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/JarredGibb/sounds/263889/" title="Rattle Drum">Rattle Drum</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:95%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/JarredGibb/sounds/263889/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/JarredGibb/sounds/263889/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/JarredGibb/sounds/263889/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/JarredGibb/sounds/263889/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/JarredGibb/sounds/263889/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>Rattle <b>drum</b> -Jarred Gibb</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/toy/">toy</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Rattle/">Rattle</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/jarred/">jarred</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/african/">african</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/beat/">beat</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/percussion/">percussion</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/gibb/">gibb</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/rhythm/">rhythm</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/skin/">skin</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/bead/">bead</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_263889" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/JarredGibb/">JarredGibb</a><br>
+        <span class="date">February 11th, 2015</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/JarredGibb/sounds/263889/downloaders/">4973 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/JarredGibb/sounds/263889/#comments">6 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(263889)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/JarredGibb/sounds/263889/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./forDrum_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="381353">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/381/381353_1676145-lq.mp3" title="mp3 file">120 BPM Basic Drum loop - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/381/381353_1676145-lq.ogg" title="ogg file">120 BPM Basic Drum loop - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/381/381353_1676145_wave_M.png" title="waveform file">120 BPM Basic Drum loop - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/381/381353_1676145_spec_M.jpg" title="spectrogram file">120 BPM Basic Drum loop - spectrogram</a>
+<span class="duration" title="duration in seconds">2016.83</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="play toggle">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/381/381353_1676145_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                                  <div class="position-indicator" style="left: 103.529%;"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/waveplay./sounds/381353/" title="120 BPM Basic Drum loop">120 BPM Basic Drum loop</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:93%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/waveplay./sounds/381353/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/waveplay./sounds/381353/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/waveplay./sounds/381353/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/waveplay./sounds/381353/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/waveplay./sounds/381353/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>120 BPM Basic <b>drum</b> loop</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/120bpm/">120bpm</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/house/">house</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/BPM/">BPM</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/120/">120</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/beat/">beat</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/techno/">techno</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/120-bpm/">120-bpm</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/rhythm/">rhythm</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Basic/">Basic</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/dance/">dance</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/electro/">electro</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/electronic/">electronic</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/loop/">loop</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_381353" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/waveplay./">waveplay.</a><br>
+        <span class="date">February 18th, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/waveplay./sounds/381353/downloaders/">9443 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/waveplay./sounds/381353/#comments">16 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(381353)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/waveplay./sounds/381353/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/waveplay./packs/14203/">
+                <img src="./forDrum_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: free loops/beats/sequences/patterns/synthesizer-sounds/percussion-loops/thingers">
+            </a>
+            
+            
+             <a class="remixes" href="https://freesound.org/people/waveplay./sounds/381353/remixes/">
+                <img src="./forDrum_files/remixes.png" width="16" height="16" alt="Remixes" title="This sound has remixes">
+            </a>
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./forDrum_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./forDrum_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=drum%20&amp;f=grouping_pack:%2214203_free%20loops/beats/sequences/patterns/synthesizer-sounds/percussion-loops/thingers%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=0&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">26 more results</a> in the same pack "free loops/beats/sequences/patte..."</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="387397">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/387/387397_2397571-lq.mp3" title="mp3 file">VOLCA DRUM SAMPLE CHAIN x32.wavSAMPLE CHAIN - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/387/387397_2397571-lq.ogg" title="ogg file">VOLCA DRUM SAMPLE CHAIN x32.wavSAMPLE CHAIN - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/387/387397_2397571_wave_M.png" title="waveform file">VOLCA DRUM SAMPLE CHAIN x32.wavSAMPLE CHAIN - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/387/387397_2397571_spec_M.jpg" title="spectrogram file">VOLCA DRUM SAMPLE CHAIN x32.wavSAMPLE CHAIN - spectrogram</a>
+<span class="duration" title="duration in seconds">32000.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="play toggle">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/387/387397_2397571_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                                  <div class="position-indicator" style="left: 11.4594%;"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:28</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/SONICUPRISING/sounds/387397/" title="VOLCA DRUM SAMPLE CHAIN x32.wavSAMPLE CHAIN">VOLCA DRUM SAMPLE CHAIN ...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:94%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/SONICUPRISING/sounds/387397/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/SONICUPRISING/sounds/387397/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/SONICUPRISING/sounds/387397/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/SONICUPRISING/sounds/387397/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/SONICUPRISING/sounds/387397/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>VOLCA <b>drum</b> SAMPLEs korg volca for octatrack SAMPLE CHAIN</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/octatrack/">octatrack</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/VOLCA/">VOLCA</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/monotron-duo/">monotron-duo</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/DRUM/">DRUM</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/CHAIN/">CHAIN</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/korg/">korg</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/volca/">volca</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/SAMPLE/">SAMPLE</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/SAMPLEs/">SAMPLEs</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_387397" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/SONICUPRISING/">SONICUPRISING</a><br>
+        <span class="date">April 8th, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/SONICUPRISING/sounds/387397/downloaders/">1084 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/SONICUPRISING/sounds/387397/#comments">3 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(387397)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/SONICUPRISING/sounds/387397/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/SONICUPRISING/packs/21788/">
+                <img src="./forDrum_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Analogue sample chains for Octatrack">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./forDrum_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./forDrum_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=drum%20&amp;f=grouping_pack:%2221788_Analogue%20sample%20chains%20for%20Octatrack%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=0&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">4 more results</a> in the same pack "Analogue sample chains for Octat..."</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="410516">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/410/410516_5121236-lq.mp3" title="mp3 file">Snare Drum, Multi Hits, A (H1).wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/410/410516_5121236-lq.ogg" title="ogg file">Snare Drum, Multi Hits, A (H1).wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/410/410516_5121236_wave_M.png" title="waveform file">Snare Drum, Multi Hits, A (H1).wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/410/410516_5121236_spec_M.jpg" title="spectrogram file">Snare Drum, Multi Hits, A (H1).wav - spectrogram</a>
+<span class="duration" title="duration in seconds">2718.91</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="play toggle">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/410/410516_5121236_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                                  <div class="position-indicator" style="left: 102.394%;"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/InspectorJ/sounds/410516/" title="Snare Drum, Multi Hits, A (H1).wav">Snare Drum, Multi Hits, ...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:94%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/InspectorJ/sounds/410516/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/InspectorJ/sounds/410516/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/InspectorJ/sounds/410516/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/InspectorJ/sounds/410516/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/InspectorJ/sounds/410516/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>Raw audio of striking a snare <b>drum</b> multiple times with a wooden drumstick. I recorded this simultaneously with a Zoom ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/hit/">hit</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Hits/">Hits</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drums/">Drums</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Percussion/">Percussion</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/hits/">hits</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Hit/">Hit</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drumstick/">drumstick</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drums/">drums</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drumstick/">Drumstick</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/percussion/">percussion</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Snare/">Snare</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/snare/">snare</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_410516" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/InspectorJ/">InspectorJ</a><br>
+        <span class="date">November 11th, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/InspectorJ/sounds/410516/downloaders/">2963 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/InspectorJ/sounds/410516/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(410516)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/InspectorJ/sounds/410516/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/InspectorJ/packs/23129/">
+                <img src="./forDrum_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Recorder Comparisons">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./forDrum_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./forDrum_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=drum%20&amp;f=grouping_pack:%2223129_Recorder%20Comparisons%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=0&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">3 more results</a> in the same pack "Recorder Comparisons"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="439688">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/439/439688_5121236-lq.mp3" title="mp3 file">Ocean Drum, Rolling, Felt, A.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/439/439688_5121236-lq.ogg" title="ogg file">Ocean Drum, Rolling, Felt, A.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/439/439688_5121236_wave_M.png" title="waveform file">Ocean Drum, Rolling, Felt, A.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/439/439688_5121236_spec_M.jpg" title="spectrogram file">Ocean Drum, Rolling, Felt, A.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">47409.3</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/439/439688_5121236_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:47</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/InspectorJ/sounds/439688/" title="Ocean Drum, Rolling, Felt, A.wav">Ocean Drum, Rolling, Fel...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:84%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/InspectorJ/sounds/439688/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/InspectorJ/sounds/439688/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/InspectorJ/sounds/439688/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/InspectorJ/sounds/439688/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/InspectorJ/sounds/439688/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>Raw audio created by swirling an ocean <b>drum</b> with the felt side faced downward, creating a slightly softer ocean sound ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/felt/">felt</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Percussion/">Percussion</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Felt/">Felt</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Roll/">Roll</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/percussion/">percussion</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/ocean/">ocean</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/rolling/">rolling</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Rolling/">Rolling</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Ocean/">Ocean</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/roll/">roll</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_439688" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/InspectorJ/">InspectorJ</a><br>
+        <span class="date">September 10th, 2018</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/InspectorJ/sounds/439688/downloaders/">1191 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/InspectorJ/sounds/439688/#comments">3 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(439688)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/InspectorJ/sounds/439688/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./forDrum_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="462942">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/462/462942_9699315-lq.mp3" title="mp3 file">dr_NI-Timpani_drums KlangRaum Wort.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/462/462942_9699315-lq.ogg" title="ogg file">dr_NI-Timpani_drums KlangRaum Wort.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/462/462942_9699315_wave_M.png" title="waveform file">dr_NI-Timpani_drums KlangRaum Wort.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/462/462942_9699315_spec_M.jpg" title="spectrogram file">dr_NI-Timpani_drums KlangRaum Wort.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">16000.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/462/462942_9699315_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:16</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/KlangRaumWort/sounds/462942/" title="dr_NI-Timpani_drums KlangRaum Wort.wav">dr_NI-Timpani_drums Klan...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:86%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/KlangRaumWort/sounds/462942/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/KlangRaumWort/sounds/462942/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/KlangRaumWort/sounds/462942/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/KlangRaumWort/sounds/462942/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/KlangRaumWort/sounds/462942/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>Electronic Native Instruments Timpani <b>drum</b>. http://klang-raum-wort.de/</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Timpani/">Timpani</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Beats/">Beats</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Electronic/">Electronic</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Instruments/">Instruments</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Native/">Native</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_462942" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/KlangRaumWort/">KlangRaumWort</a><br>
+        <span class="date">March 10th, 2019</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/KlangRaumWort/sounds/462942/downloaders/">789 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/KlangRaumWort/sounds/462942/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(462942)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/KlangRaumWort/sounds/462942/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./forDrum_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="331589">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/331/331589_5820980-lq.mp3" title="mp3 file">Kick J.Zealous Hard Club.aif - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/331/331589_5820980-lq.ogg" title="ogg file">Kick J.Zealous Hard Club.aif - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/331/331589_5820980_wave_M.png" title="waveform file">Kick J.Zealous Hard Club.aif - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/331/331589_5820980_spec_M.jpg" title="spectrogram file">Kick J.Zealous Hard Club.aif - spectrogram</a>
+<span class="duration" title="duration in seconds">2243.79</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/331/331589_5820980_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:02</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/J_Zealous/sounds/331589/" title="Kick J.Zealous Hard Club.aif">Kick J.Zealous Hard Club...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:90%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/J_Zealous/sounds/331589/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/J_Zealous/sounds/331589/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/J_Zealous/sounds/331589/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/J_Zealous/sounds/331589/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/J_Zealous/sounds/331589/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>Free Kick <b>drum</b> made with drum synth</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/free/">free</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/kickdrum/">kickdrum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/kick-drum/">kick-drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/kick/">kick</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum-synthesis/">drum-synthesis</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_331589" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/J_Zealous/">J_Zealous</a><br>
+        <span class="date">December 23rd, 2015</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/J_Zealous/sounds/331589/downloaders/">5681 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/J_Zealous/sounds/331589/#comments">4 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(331589)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/J_Zealous/sounds/331589/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/J_Zealous/packs/18656/">
+                <img src="./forDrum_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Free J.Zealous Kicks">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./forDrum_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./forDrum_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=drum%20&amp;f=grouping_pack:%2218656_Free%20J.Zealous%20Kicks%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=0&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">3 more results</a> in the same pack "Free J.Zealous Kicks"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="191617">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/191/191617_2394245-lq.mp3" title="mp3 file">jhd_bd_35.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/191/191617_2394245-lq.ogg" title="ogg file">jhd_bd_35.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/191/191617_2394245_wave_M.png" title="waveform file">jhd_bd_35.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/191/191617_2394245_spec_M.jpg" title="spectrogram file">jhd_bd_35.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">487.823</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/191/191617_2394245_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/DWSD/sounds/191617/" title="jhd_bd_35.wav">jhd_bd_35.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/DWSD/sounds/191617/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/DWSD/sounds/191617/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/DWSD/sounds/191617/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/DWSD/sounds/191617/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/DWSD/sounds/191617/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>Hi freesounders! Well, Here are some kick <b>drum</b> samples from my new label. You can buy the full pack at ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/drums/">drums</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/demo/">demo</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/hats/">hats</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Roland/">Roland</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/3000/">3000</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/claps/">claps</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/mpc60/">mpc60</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/out/">out</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/perc/">perc</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/mic/">mic</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/TR/">TR</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/machine/">machine</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/music/">music</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/samples/">samples</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/tape/">tape</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/TR909/">TR909</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/free/">free</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/producerloops/">producerloops</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/now/">now</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/hits/">hits</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/MPC/">MPC</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/House/">House</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/808/">808</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/acoustic/">acoustic</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_191617" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/DWSD/">DWSD</a><br>
+        <span class="date">June 14th, 2013</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/DWSD/sounds/191617/downloaders/">189 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/DWSD/sounds/191617/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(191617)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/DWSD/sounds/191617/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/DWSD/packs/12146/">
+                <img src="./forDrum_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Jackpot recordings House Drums (DEMO SAMPLES)">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./forDrum_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./forDrum_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=drum%20&amp;f=grouping_pack:%2212146_Jackpot%20recordings%20House%20Drums%20(DEMO%20SAMPLES)%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=0&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">32 more results</a> in the same pack "Jackpot recordings House Drums (..."</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="371192">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/371/371192_6399962-lq.mp3" title="mp3 file">acoustic kick.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/371/371192_6399962-lq.ogg" title="ogg file">acoustic kick.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/371/371192_6399962_wave_M.png" title="waveform file">acoustic kick.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/371/371192_6399962_spec_M.jpg" title="spectrogram file">acoustic kick.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">296.485</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/371/371192_6399962_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/karolist/sounds/371192/" title="acoustic kick.wav">acoustic kick.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:91%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/karolist/sounds/371192/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/karolist/sounds/371192/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/karolist/sounds/371192/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/karolist/sounds/371192/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/karolist/sounds/371192/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>Acoustic bass <b>drum</b> sound recorded in studio.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/acoustic/">acoustic</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum-loop/">drum-loop</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/kick/">kick</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/groovy/">groovy</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/bass/">bass</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/garbage/">garbage</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/beat/">beat</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/hard/">hard</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drums/">drums</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/percussion/">percussion</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/percussive/">percussive</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/kickdrum/">kickdrum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/rock/">rock</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_371192" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/karolist/">karolist</a><br>
+        <span class="date">December 18th, 2016</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/karolist/sounds/371192/downloaders/">6058 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/karolist/sounds/371192/#comments">3 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(371192)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/karolist/sounds/371192/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./forDrum_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="139501">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/139/139501_2481923-lq.mp3" title="mp3 file">Big Hit 1.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/139/139501_2481923-lq.ogg" title="ogg file">Big Hit 1.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/139/139501_2481923_wave_M.png" title="waveform file">Big Hit 1.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/139/139501_2481923_spec_M.jpg" title="spectrogram file">Big Hit 1.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">2000.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/139/139501_2481923_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:02</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/robertmcdonald/sounds/139501/" title="Big Hit 1.wav">Big Hit 1.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:89%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/robertmcdonald/sounds/139501/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/robertmcdonald/sounds/139501/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/robertmcdonald/sounds/139501/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/robertmcdonald/sounds/139501/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/robertmcdonald/sounds/139501/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>This big <b>drum</b> hit is stereo and perfect for any kind of music or sound effect to highlight an emphatic ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/sound/">sound</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/big/">big</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_139501" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/robertmcdonald/">robertmcdonald</a><br>
+        <span class="date">December 27th, 2011</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/robertmcdonald/sounds/139501/downloaders/">7050 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/robertmcdonald/sounds/139501/#comments">6 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(139501)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/robertmcdonald/sounds/139501/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./forDrum_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="519279">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/519/519279_3797507-lq.mp3" title="mp3 file">SJC 14x7.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/519/519279_3797507-lq.ogg" title="ogg file">SJC 14x7.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/519/519279_3797507_wave_M.png" title="waveform file">SJC 14x7.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/519/519279_3797507_spec_M.jpg" title="spectrogram file">SJC 14x7.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">313.651</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/519/519279_3797507_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Veiler/sounds/519279/" title="SJC 14x7.wav">SJC 14x7.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/Veiler/sounds/519279/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/Veiler/sounds/519279/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/Veiler/sounds/519279/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/Veiler/sounds/519279/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/Veiler/sounds/519279/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>SJC Custom <b>drum</b>s. 14x7 inches (14″x7″) The hoop is aluminum. It is based on an older file I uploaded on ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/antipersonocracy/">antipersonocracy</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drums/">drums</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/black-metal/">black-metal</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/death-metal/">death-metal</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/godfuck/">godfuck</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/side-drum/">side-drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/metal/">metal</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Custom/">Custom</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/atheism/">atheism</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/kill-Buddhism/">kill-Buddhism</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/kill-the-monarch-of-Norway/">kill-the-monarch-of-Norway</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drums/">Drums</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum-Set/">Drum-Set</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/snare/">snare</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/SJC/">SJC</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Snare/">Snare</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum-kit/">drum-kit</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/snare-drum/">snare-drum</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_519279" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Veiler/">Veiler</a><br>
+        <span class="date">May 23rd, 2020</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Veiler/sounds/519279/downloaders/">106 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/Veiler/sounds/519279/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(519279)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Veiler/sounds/519279/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/Veiler/packs/13345/">
+                <img src="./forDrum_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: snares">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./forDrum_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./forDrum_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=drum%20&amp;f=grouping_pack:%2213345_snares%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=0&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">34 more results</a> in the same pack "snares"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="270090">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/270/270090_1125482-lq.mp3" title="mp3 file">Drumsticks [Dave Weckl Evolution] simple one №1..wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/270/270090_1125482-lq.ogg" title="ogg file">Drumsticks [Dave Weckl Evolution] simple one №1..wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/270/270090_1125482_wave_M.png" title="waveform file">Drumsticks [Dave Weckl Evolution] simple one №1..wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/270/270090_1125482_spec_M.jpg" title="spectrogram file">Drumsticks [Dave Weckl Evolution] simple one №1..wav - spectrogram</a>
+<span class="duration" title="duration in seconds">1015.08</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/270/270090_1125482_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:01</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Theriavirra/sounds/270090/" title="Drumsticks [Dave Weckl Evolution] simple one №1..wav">Drumsticks [Dave Weckl E...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:70%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/Theriavirra/sounds/270090/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/Theriavirra/sounds/270090/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/Theriavirra/sounds/270090/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/Theriavirra/sounds/270090/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/Theriavirra/sounds/270090/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b><b>drum</b>sticks [Dave Weckl Evolution] simple one №1.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/shot/">shot</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/metronome/">metronome</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/turks/">turks</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Cooper/">Cooper</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/wenge/">wenge</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Young/">Young</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/one/">one</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/crash/">crash</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/bubinga/">bubinga</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/wood/">wood</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/cymbals/">cymbals</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/hi-hat/">hi-hat</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/hit/">hit</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/snare/">snare</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/custom/">custom</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/click/">click</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/bronze/">bronze</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/sticks/">sticks</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_270090" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Theriavirra/">Theriavirra</a><br>
+        <span class="date">April 13th, 2015</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Theriavirra/sounds/270090/downloaders/">1012 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/Theriavirra/sounds/270090/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(270090)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Theriavirra/sounds/270090/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/Theriavirra/packs/16665/">
+                <img src="./forDrum_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Hi-hats (charlestons), drumsticks, snares and cymbals that sounds good">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./forDrum_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./forDrum_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=drum%20&amp;f=grouping_pack:%2216665_Hi-hats%20(charlestons),%20drumsticks,%20snares%20and%20cymbals%20that%20sounds%20good%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=0&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">293 more results</a> in the same pack "Hi-hats (charlestons), drumstick..."</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="232014">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/232/232014_736471-lq.mp3" title="mp3 file">Ambassador-6.wav - Saturated - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/232/232014_736471-lq.ogg" title="ogg file">Ambassador-6.wav - Saturated - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/232/232014_736471_wave_M.png" title="waveform file">Ambassador-6.wav - Saturated - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/232/232014_736471_spec_M.jpg" title="spectrogram file">Ambassador-6.wav - Saturated - spectrogram</a>
+<span class="duration" title="duration in seconds">1066.11</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/232/232014_736471_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:01</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Seidhepriest/sounds/232014/" title="Ambassador-6.wav - Saturated">Ambassador-6.wav - Satur...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:86%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/Seidhepriest/sounds/232014/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/Seidhepriest/sounds/232014/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/Seidhepriest/sounds/232014/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/Seidhepriest/sounds/232014/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/Seidhepriest/sounds/232014/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>This is a bit of an experiment, a DW Custom 14" Maple snare recorded with three microphones (Rode NT5-MP and ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/GS/">GS</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/96-24/">96-24</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/MIDI/">MIDI</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Custom/">Custom</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/percussion/">percussion</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/DW/">DW</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/GM/">GM</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Snare/">Snare</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Maple/">Maple</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/14/">14</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_232014" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Seidhepriest/">Seidhepriest</a><br>
+        <span class="date">April 1st, 2014</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Seidhepriest/sounds/232014/downloaders/">3801 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/Seidhepriest/sounds/232014/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(232014)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Seidhepriest/sounds/232014/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/Seidhepriest/packs/14211/">
+                <img src="./forDrum_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: DW Custom 14&quot; Maple Snare">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./forDrum_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./forDrum_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=drum%20&amp;f=grouping_pack:%2214211_DW%20Custom%2014%22%20Maple%20Snare%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=0&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">11 more results</a> in the same pack "DW Custom 14" Maple Snare"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="263869">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/263/263869_3095604-lq.mp3" title="mp3 file">Amen Break B (160 BPM)  - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/263/263869_3095604-lq.ogg" title="ogg file">Amen Break B (160 BPM)  - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/263/263869_3095604_wave_M.png" title="waveform file">Amen Break B (160 BPM)  - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/263/263869_3095604_spec_M.jpg" title="spectrogram file">Amen Break B (160 BPM)  - spectrogram</a>
+<span class="duration" title="duration in seconds">6000.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/263/263869_3095604_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:06</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Kevcio/sounds/263869/" title="Amen Break B (160 BPM) ">Amen Break B (160 BPM) </a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:96%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/Kevcio/sounds/263869/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/Kevcio/sounds/263869/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/Kevcio/sounds/263869/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/Kevcio/sounds/263869/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/Kevcio/sounds/263869/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b>Cutup Amen berak</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/drum/">drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/bass/">bass</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/n/">n</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Jungle/">Jungle</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drums/">drums</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/160/">160</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/loop/">loop</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_263869" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Kevcio/">Kevcio</a><br>
+        <span class="date">February 11th, 2015</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Kevcio/sounds/263869/downloaders/">4685 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/Kevcio/sounds/263869/#comments">8 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(263869)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Kevcio/sounds/263869/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./forDrum_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="190613">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/190/190613_3172867-lq.mp3" title="mp3 file">Drums - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/190/190613_3172867-lq.ogg" title="ogg file">Drums - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/190/190613_3172867_wave_M.png" title="waveform file">Drums - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/190/190613_3172867_spec_M.jpg" title="spectrogram file">Drums - spectrogram</a>
+<span class="duration" title="duration in seconds">1850.95</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/190/190613_3172867_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:01</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Goup_1/sounds/190613/" title="Drums">Drums</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:83%;">Currently /5 Stars.</li>
+    
+    <li><a href="https://freesound.org/people/Goup_1/sounds/190613/rate/1/" title="pretty bad :-(" class="one-star">1</a></li>
+    <li><a href="https://freesound.org/people/Goup_1/sounds/190613/rate/2/" title="quite good" class="two-stars">2</a></li>
+    <li><a href="https://freesound.org/people/Goup_1/sounds/190613/rate/3/" title="good :-)" class="three-stars">3</a></li>
+    <li><a href="https://freesound.org/people/Goup_1/sounds/190613/rate/4/" title="very good" class="four-stars">4</a></li>
+    <li><a href="https://freesound.org/people/Goup_1/sounds/190613/rate/5/" title="amazing :-o" class="five-stars">5</a></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b></b><b>drum</b>s</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drum/">Drum</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Hi-Hats/">Hi-Hats</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/J-Lee/">J-Lee</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Hi/">Hi</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/4x4-Records/">4x4-Records</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Drums/">Drums</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Hi-Hat/">Hi-Hat</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Snare/">Snare</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Hat/">Hat</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/kick/">kick</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_190613" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Goup_1/">Goup_1</a><br>
+        <span class="date">June 3rd, 2013</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Goup_1/sounds/190613/downloaders/">8144 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/Goup_1/sounds/190613/#comments">21 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(190613)">
+                <img src="./forDrum_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Goup_1/sounds/190613/similar/">
+                <img src="./forDrum_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/Goup_1/packs/10684/">
+                <img src="./forDrum_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Uncle Dave&#39;s Sound&#39;s">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./forDrum_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./forDrum_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=drum%20&amp;f=grouping_pack:%2210684_Uncle%20Dave%27s%20Sound%27s%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=0&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">50 more results</a> in the same pack "Uncle Dave's Sound's"</div>
+                
+            
+
+            <div class="search_paginator">
+                <ul class="pagination"><li class="disabled-previous-next">previous</li><li class="next-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=2#sound" title="Next Page">next</a></li><li class="current-page">1</li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=2#sound" title="Page 2">2</a></li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=3#sound" title="Page 3">3</a></li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=4#sound" title="Page 4">4</a></li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=5#sound" title="Page 5">5</a></li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=6#sound" title="Page 6">6</a></li><li class="other-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=7#sound" title="Page 7">7</a></li><li class="dots">...</li><li class="last-page"><a href="https://freesound.org/search/?q=drum+&amp;s=score+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=468#sound" title="Last Page">468</a></li><p class="number_of_results">
+            
+                &nbsp;|&nbsp; 41539 sounds
+            
+        </p></ul>
+
+
+            </div>
+        
+
+
+    
+
+
+
+</div> <!-- END of Content area -->
+
+<br class="clear">
+
+
+
+            </div>
+        </div>
+
+        <div id="footer_wrapper">
+            <div id="footer">
+                <div id="cookie-bar">
+                    <div style="float:left">
+                        <p>
+                            We use cookies to ensure you get the best experience on our website. By browsing our site you agree to our use of cookies.
+                            <br>
+                            For more information check out our <a href="https://freesound.org/help/cookies_policy">cookies policy</a>.
+                        </p>
+                    </div>
+                    <div style="float:right; margin-top:10px;margin-right:10px;">
+                        <button id="cookie-accept">Ok</button>
+                    </div>
+                    <br class="clear">
+
+                </div>
+                <div id="footer_links">
+                    <a href="https://freesound.org/help/developers/">Developers</a>
+                    <a href="https://blog.freesound.org/">Blog</a>
+                    <a href="https://freesound.org/help/about/">About</a>
+                    
+                    <a href="https://freesound.org/help/tos_web/">Terms of use</a>
+                </div>
+                <div id="footer_credits">
+                    Design by <a href="http://www.pixelshell.com/">Pixelshell</a>. Code by <a href="https://www.upf.edu/web/mtg">MTG (UPF)</a>. Some Rights Reserved.
+                </div>
+            </div>
+        </div>
+
+        <div id="fsmodal" class="modal"></div>
+    
+
+</body></html>
