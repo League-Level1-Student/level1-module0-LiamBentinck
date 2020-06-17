@@ -64,7 +64,7 @@ public class BodyPartQuiz {
 		 score=+1;
 		}
 		else {
-			System.out.println("that is arnold stupid");
+			System.out.println("that is arnold, stupid");
 		}
 		// 6. Otherwise:
 		// -- Tell them they are wrong and who the person is
