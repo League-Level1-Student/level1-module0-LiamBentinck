@@ -20,9 +20,7 @@ public class JackInTheBox implements MouseListener{
 		frame.setVisible(true);
 		frame.pack();
 		button.addMouseListener(this);
-		if(num==5) {
-			
-		}
+		
 		
 			
 		
@@ -33,7 +31,9 @@ public class JackInTheBox implements MouseListener{
 		// TODO Auto-generated method stub
 		
 		num+=1;
-		System.out.println(num);
+		if(num==5) {
+			showPicture("jackInTheBox.png");
+		}
 	}
 	@Override
 	public void mouseEntered(MouseEvent arg0) {
